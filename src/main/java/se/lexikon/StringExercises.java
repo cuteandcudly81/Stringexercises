@@ -1,5 +1,7 @@
 package se.lexikon;
 
+import java.util.Arrays;
+
 public class StringExercises {
 
     public static void main(String[] args) {
@@ -8,6 +10,10 @@ public class StringExercises {
         exercise3();
         exercise4();
         exercise5();
+        exercise6();
+        exercise7();
+        exercise8();
+
 
 
 
@@ -61,6 +67,26 @@ public class StringExercises {
 
     public static void exercise6(){
         System.out.println("Ex6");
+        String str = "\tJ\ta\tv\ta\t ";
+        System.out.println(str.trim());
+    }
+
+    public static void exercise7(){
+        System.out.println("Ex7");
+        int i = Integer.parseInt("20");
+        System.out.println("20" + 20);
+    }
+
+    public static void exercise8(){
+        String stringVariable = "Water and Oil";
+        String[] array = stringVariable.split(" and ");
+        Arrays.sort(array);
+        System.out.println(array[0] + " " + array[1]);
+
+    }
+
+    public static void exercise9(){
+        String[] array = new String[]{"Carl", "Susie", "Fredrick", "Bob", "Erik"};
 
     }
 
