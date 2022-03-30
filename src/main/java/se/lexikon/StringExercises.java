@@ -13,11 +13,8 @@ public class StringExercises {
         exercise6();
         exercise7();
         exercise8();
-
-
-
-
-
+        exercise9();
+        exercise11();
 
 
 
@@ -86,7 +83,19 @@ public class StringExercises {
     }
 
     public static void exercise9(){
-        String[] array = new String[]{"Carl", "Susie", "Fredrick", "Bob", "Erik"};
+        String str = "Carl, Susie, Fredrick, Bob, Erik";
+        String[] strArray = str.split(",");
+        System.out.println(Arrays.toString(strArray));
+    }
+
+    public static void exercise11(){
+        char[] myString = new char[]{'J', 'a', 'v', 'a'};
+        String output1 = new String(myString);
+        System.out.println("output1 : " + output1);
+
+    }
+
+    public static void exercise10(){
 
     }
 
